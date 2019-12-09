@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Latihan Middleware</title>
+    </head>
+    <body>
+        <h1>Form Login</h1><br/>
+
+        <% if(message.length > 0 ) { %>
+            <p><%= text.message %></p>
+        <% } %>
+        <form action="" method="post">
+            <input type="text" name="username" placeholder="Masukan Username anda"/><br/><br/>
+            <input type="password" name="password" placeholder="***********"/><br><br>
+            <button type = "submit">Login</button>
+        </form>
+    </body>
+</html>
